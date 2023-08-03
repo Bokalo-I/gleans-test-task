@@ -1,0 +1,23 @@
+.control {
+  @apply px-3.5 flex py-2.5 bg-[#2a2a2a] rounded-[32px] shrink-0 grow-0 items-center;
+
+  &__text {
+    @apply text-white font-medium text-[14px] leading-normal select-none cursor-text;
+  }
+
+  &__input {
+    @apply bg-transparent outline-none select-text;
+  }
+
+  &__minus {
+    @apply ml-2.5 cursor-pointer aspect-square;
+  }
+
+  &__divider {
+    @apply w-px h-[13px] bg-white opacity-10;
+  }
+
+  &__plus {
+    @apply mx-2.5 cursor-pointer aspect-square;
+  }
+}

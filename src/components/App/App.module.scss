@@ -1,0 +1,21 @@
+.app {
+  @apply h-screen relative overflow-hidden;
+
+  &__background {
+    @apply h-screen w-screen absolute top-0 left-0 -z-50 object-cover;
+  }
+
+  &__blur {
+    @apply h-screen w-screen absolute top-0 left-0 z-10;
+    backdrop-filter: blur(0);
+    transition: 0.5s;
+
+    &_active {
+      backdrop-filter: blur(50px);
+    }
+  }
+
+  &__button {
+    @apply absolute bottom-5 left-1/2 -translate-x-1/2 z-20;
+  }
+}

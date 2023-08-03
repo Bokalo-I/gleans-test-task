@@ -1,0 +1,30 @@
+.menu {
+  @apply absolute left-0 bottom-0 z-50 rounded-t-[60px] w-screen overflow-hidden -translate-x-1/2 left-1/2
+    sm:w-[430px] sm:rounded-b-[60px];
+  background: rgba(24, 24, 24, 0.8);
+  transition: 0.5s;
+
+  &__add-content {
+    @apply -translate-y-[491px];
+  }
+
+  &__create-glean {
+    @apply -translate-y-[100vh];
+  }
+
+  &__title {
+    @apply mt-14 mb-[60px] text-center text-[32px] leading-normal text-[#fff] opacity-50;
+  }
+
+  &__content {
+    @apply px-10 flex justify-between;
+  }
+
+  &__input {
+    @apply mt-9 mb-[17px] mx-[21px];
+  }
+
+  &__caption {
+    @apply px-[25px] pb-[49px] text-center text-[#b9b9b9] text-[14px] leading-normal font-normal;
+  }
+}

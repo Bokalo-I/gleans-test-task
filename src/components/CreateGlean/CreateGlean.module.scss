@@ -1,0 +1,52 @@
+.create-glean {
+  @apply h-screen overflow-y-scroll pt-[57px] absolute w-full top-0 left-0;
+  transition: 0.5s;
+
+  &-screen {
+    @apply relative h-screen;
+  }
+
+  &_hidden-left {
+    @apply -left-full;
+  }
+
+  &_hidden-right {
+    @apply left-full;
+  }
+
+  &__categories {
+    @apply px-7 flex flex-wrap gap-2.5 mb-[58px];
+  }
+
+  &__category {
+    @apply px-3.5 flex py-2.5 bg-[#2a2a2a] rounded-[32px] shrink-0 grow-0 items-center;
+
+    &-text {
+      @apply text-white font-medium text-[14px] leading-normal;
+    }
+
+    &-minus {
+      @apply ml-2.5 cursor-pointer;
+    }
+
+    &-divider {
+      @apply w-px h-[13px] bg-white opacity-10;
+    }
+
+    &-plus {
+      @apply mx-2.5 cursor-pointer;
+    }
+  }
+
+  &__caption {
+    @apply flex items-center justify-center mb-[46px];
+
+    &-content {
+      @apply text-[#B9B9B9] text-[14px] leading-normal font-normal mr-[5px];
+    }
+  }
+
+  &__buttons {
+    @apply flex gap-[17px] justify-center pb-[38px];
+  }
+}

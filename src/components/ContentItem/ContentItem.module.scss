@@ -1,0 +1,17 @@
+.content-item {
+  &__text {
+    @apply text-center text-[14px] leading-normal text-white;
+  }
+
+  &__title {
+    @apply font-medium py-2.5;
+  }
+
+  &__description {
+    @apply font-normal opacity-70;
+  }
+
+  &__pictures {
+    @apply flex h-[90px] gap-[5px] mt-[7px];
+  }
+}

@@ -1,0 +1,7 @@
+.done {
+  @apply h-screen flex flex-col items-center;
+
+  &__button {
+    @apply mt-auto mb-9 w-fit;
+  }
+}

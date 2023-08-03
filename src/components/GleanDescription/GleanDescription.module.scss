@@ -1,0 +1,18 @@
+.glean-description {
+  @apply px-[43px] mb-[27px];
+
+  &__content {
+    @apply text-center text-[14px] leading-normal font-normal w-full bg-transparent outline-none resize-none text-[#b9b9b9];
+
+    &_disabled {
+      @apply text-[#b9b9b9] text-center text-[14px] leading-normal font-normal w-full break-words cursor-text line-clamp-4;
+    }
+  }
+
+  &_transit {
+    background: linear-gradient(180deg, #b9b9b9 0%, rgba(185, 185, 185, 0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

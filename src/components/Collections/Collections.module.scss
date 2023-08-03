@@ -1,0 +1,11 @@
+.collections {
+  @apply px-7 flex flex-wrap gap-2.5 mb-[58px];
+}
+
+.collections-add {
+  @apply flex items-center justify-center mb-[46px] cursor-pointer;
+}
+
+.collections-caption {
+  @apply text-[#B9B9B9] text-[14px] leading-normal font-normal mr-[5px];
+}

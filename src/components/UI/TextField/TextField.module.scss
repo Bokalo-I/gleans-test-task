@@ -1,0 +1,20 @@
+.text-field {
+  @apply h-[59px] rounded-[25px] bg-[#D9D9D915] pr-1.5 items-center flex relative;
+
+  &__icon {
+    @apply absolute z-50 top-1/2 left-[15px] -translate-y-1/2;
+  }
+
+  &__input {
+    @apply bg-transparent text-white text-[14px] leading-normal font-normal w-full placeholder:text-white placeholder:opacity-50 outline-none;
+
+    &-container {
+      @apply ml-[43px] w-full relative;
+    }
+
+    &-hidden {
+      @apply w-7 h-6 absolute top-1/2 right-0 -translate-y-1/2 z-50;
+      background: linear-gradient(90deg, transparent 0%, #2c2b2b 100%);
+    }
+  }
+}
